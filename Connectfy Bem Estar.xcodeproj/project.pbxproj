@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D5571B2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */; };
+		36D5571D2ED913C90065BFC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571C2ED913C90065BFC6 /* ContentView.swift */; };
+		36D5571F2ED913C90065BFC6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571E2ED913C90065BFC6 /* Item.swift */; };
+		36D557212ED913CC0065BFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D557202ED913CC0065BFC6 /* Assets.xcassets */; };
+		36D557242ED913CC0065BFC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D557232ED913CC0065BFC6 /* Preview Assets.xcassets */; };
+		36D5572E2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5572D2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift */; };
+		36D557382ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557372ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift */; };
+		36D5573A2ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557392ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36D5572A2ED913CC0065BFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D5570F2ED913C90065BFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D557162ED913C90065BFC6;
+			remoteInfo = "Connectfy Bem Estar";
+		};
+		36D557342ED913CC0065BFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36D5570F2ED913C90065BFC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D557162ED913C90065BFC6;
+			remoteInfo = "Connectfy Bem Estar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36D557172ED913C90065BFC6 /* Connectfy Bem Estar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connectfy Bem Estar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarApp.swift; sourceTree = "<group>"; };
+		36D5571C2ED913C90065BFC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36D5571E2ED913C90065BFC6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		36D557202ED913CC0065BFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36D557232ED913CC0065BFC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36D557292ED913CC0065BFC6 /* Connectfy Bem EstarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connectfy Bem EstarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5572D2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarTests.swift; sourceTree = "<group>"; };
+		36D557332ED913CC0065BFC6 /* Connectfy Bem EstarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connectfy Bem EstarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D557372ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarUITests.swift; sourceTree = "<group>"; };
+		36D557392ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D557142ED913C90065BFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D557262ED913CC0065BFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D557302ED913CC0065BFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D5570E2ED913C90065BFC6 = {
+			isa = PBXGroup;
+			children = (
+				36D557192ED913C90065BFC6 /* Connectfy Bem Estar */,
+				36D5572C2ED913CC0065BFC6 /* Connectfy Bem EstarTests */,
+				36D557362ED913CC0065BFC6 /* Connectfy Bem EstarUITests */,
+				36D557182ED913C90065BFC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36D557182ED913C90065BFC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36D557172ED913C90065BFC6 /* Connectfy Bem Estar.app */,
+				36D557292ED913CC0065BFC6 /* Connectfy Bem EstarTests.xctest */,
+				36D557332ED913CC0065BFC6 /* Connectfy Bem EstarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D557192ED913C90065BFC6 /* Connectfy Bem Estar */ = {
+			isa = PBXGroup;
+			children = (
+				36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */,
+				36D5571C2ED913C90065BFC6 /* ContentView.swift */,
+				36D5571E2ED913C90065BFC6 /* Item.swift */,
+				36D557202ED913CC0065BFC6 /* Assets.xcassets */,
+				36D557222ED913CC0065BFC6 /* Preview Content */,
+			);
+			path = "Connectfy Bem Estar";
+			sourceTree = "<group>";
+		};
+		36D557222ED913CC0065BFC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36D557232ED913CC0065BFC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36D5572C2ED913CC0065BFC6 /* Connectfy Bem EstarTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D5572D2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift */,
+			);
+			path = "Connectfy Bem EstarTests";
+			sourceTree = "<group>";
+		};
+		36D557362ED913CC0065BFC6 /* Connectfy Bem EstarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36D557372ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift */,
+				36D557392ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift */,
+			);
+			path = "Connectfy Bem EstarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D557162ED913C90065BFC6 /* Connectfy Bem Estar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D5573D2ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem Estar" */;
+			buildPhases = (
+				36D557132ED913C90065BFC6 /* Sources */,
+				36D557142ED913C90065BFC6 /* Frameworks */,
+				36D557152ED913C90065BFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connectfy Bem Estar";
+			productName = "Connectfy Bem Estar";
+			productReference = 36D557172ED913C90065BFC6 /* Connectfy Bem Estar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36D557282ED913CC0065BFC6 /* Connectfy Bem EstarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D557402ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem EstarTests" */;
+			buildPhases = (
+				36D557252ED913CC0065BFC6 /* Sources */,
+				36D557262ED913CC0065BFC6 /* Frameworks */,
+				36D557272ED913CC0065BFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D5572B2ED913CC0065BFC6 /* PBXTargetDependency */,
+			);
+			name = "Connectfy Bem EstarTests";
+			productName = "Connectfy Bem EstarTests";
+			productReference = 36D557292ED913CC0065BFC6 /* Connectfy Bem EstarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36D557322ED913CC0065BFC6 /* Connectfy Bem EstarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D557432ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem EstarUITests" */;
+			buildPhases = (
+				36D5572F2ED913CC0065BFC6 /* Sources */,
+				36D557302ED913CC0065BFC6 /* Frameworks */,
+				36D557312ED913CC0065BFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36D557352ED913CC0065BFC6 /* PBXTargetDependency */,
+			);
+			name = "Connectfy Bem EstarUITests";
+			productName = "Connectfy Bem EstarUITests";
+			productReference = 36D557332ED913CC0065BFC6 /* Connectfy Bem EstarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36D5570F2ED913C90065BFC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					36D557162ED913C90065BFC6 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					36D557282ED913CC0065BFC6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 36D557162ED913C90065BFC6;
+					};
+					36D557322ED913CC0065BFC6 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 36D557162ED913C90065BFC6;
+					};
+				};
+			};
+			buildConfigurationList = 36D557122ED913C90065BFC6 /* Build configuration list for PBXProject "Connectfy Bem Estar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36D5570E2ED913C90065BFC6;
+			productRefGroup = 36D557182ED913C90065BFC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D557162ED913C90065BFC6 /* Connectfy Bem Estar */,
+				36D557282ED913CC0065BFC6 /* Connectfy Bem EstarTests */,
+				36D557322ED913CC0065BFC6 /* Connectfy Bem EstarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D557152ED913C90065BFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D557242ED913CC0065BFC6 /* Preview Assets.xcassets in Resources */,
+				36D557212ED913CC0065BFC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D557272ED913CC0065BFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D557312ED913CC0065BFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D557132ED913C90065BFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5571D2ED913C90065BFC6 /* ContentView.swift in Sources */,
+				36D5571F2ED913C90065BFC6 /* Item.swift in Sources */,
+				36D5571B2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D557252ED913CC0065BFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5572E2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D5572F2ED913CC0065BFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D557382ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift in Sources */,
+				36D5573A2ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36D5572B2ED913CC0065BFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D557162ED913C90065BFC6 /* Connectfy Bem Estar */;
+			targetProxy = 36D5572A2ED913CC0065BFC6 /* PBXContainerItemProxy */;
+		};
+		36D557352ED913CC0065BFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36D557162ED913C90065BFC6 /* Connectfy Bem Estar */;
+			targetProxy = 36D557342ED913CC0065BFC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36D5573B2ED913CC0065BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36D5573C2ED913CC0065BFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36D5573E2ED913CC0065BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Connectfy Bem Estar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-Estar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36D5573F2ED913CC0065BFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Connectfy Bem Estar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-Estar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36D557412ED913CC0065BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-EstarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connectfy Bem Estar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Connectfy Bem Estar";
+			};
+			name = Debug;
+		};
+		36D557422ED913CC0065BFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-EstarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connectfy Bem Estar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Connectfy Bem Estar";
+			};
+			name = Release;
+		};
+		36D557442ED913CC0065BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-EstarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Connectfy Bem Estar";
+			};
+			name = Debug;
+		};
+		36D557452ED913CC0065BFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6A4MPUL555;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.efeerreco.Connectfy-Bem-EstarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Connectfy Bem Estar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D557122ED913C90065BFC6 /* Build configuration list for PBXProject "Connectfy Bem Estar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5573B2ED913CC0065BFC6 /* Debug */,
+				36D5573C2ED913CC0065BFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D5573D2ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem Estar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5573E2ED913CC0065BFC6 /* Debug */,
+				36D5573F2ED913CC0065BFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D557402ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem EstarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D557412ED913CC0065BFC6 /* Debug */,
+				36D557422ED913CC0065BFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D557432ED913CC0065BFC6 /* Build configuration list for PBXNativeTarget "Connectfy Bem EstarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D557442ED913CC0065BFC6 /* Debug */,
+				36D557452ED913CC0065BFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36D5570F2ED913C90065BFC6 /* Project object */;
+}

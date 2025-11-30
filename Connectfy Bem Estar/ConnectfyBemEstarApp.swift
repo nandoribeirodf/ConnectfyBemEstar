@@ -23,10 +23,14 @@ struct Connectfy_Bem_EstarApp: App {
         }
     }()
 
+    @StateObject private var appState = AppState()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                CirclesMenuView()
+            }
+            .environmentObject(appState)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

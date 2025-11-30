@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36D5571B2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */; };
+		36D5571B2ED913C90065BFC6 /* ConnectfyBemEstarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571A2ED913C90065BFC6 /* ConnectfyBemEstarApp.swift */; };
 		36D5571D2ED913C90065BFC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571C2ED913C90065BFC6 /* ContentView.swift */; };
 		36D5571F2ED913C90065BFC6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5571E2ED913C90065BFC6 /* Item.swift */; };
 		36D557212ED913CC0065BFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D557202ED913CC0065BFC6 /* Assets.xcassets */; };
@@ -15,6 +15,10 @@
 		36D5572E2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5572D2ED913CC0065BFC6 /* Connectfy_Bem_EstarTests.swift */; };
 		36D557382ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557372ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift */; };
 		36D5573A2ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557392ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift */; };
+		36D557472ED913FF0065BFC6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557462ED913FF0065BFC6 /* Models.swift */; };
+		36D557492ED914820065BFC6 /* CirclesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D557482ED914820065BFC6 /* CirclesMenuView.swift */; };
+		36D5574B2ED914AB0065BFC6 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5574A2ED914AB0065BFC6 /* PeopleListView.swift */; };
+		36D5574D2ED914E10065BFC6 /* PersonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D5574C2ED914E10065BFC6 /* PersonFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		36D557172ED913C90065BFC6 /* Connectfy Bem Estar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connectfy Bem Estar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarApp.swift; sourceTree = "<group>"; };
+		36D5571A2ED913C90065BFC6 /* ConnectfyBemEstarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectfyBemEstarApp.swift; sourceTree = "<group>"; };
 		36D5571C2ED913C90065BFC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36D5571E2ED913C90065BFC6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		36D557202ED913CC0065BFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +50,10 @@
 		36D557332ED913CC0065BFC6 /* Connectfy Bem EstarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Connectfy Bem EstarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D557372ED913CC0065BFC6 /* Connectfy_Bem_EstarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarUITests.swift; sourceTree = "<group>"; };
 		36D557392ED913CC0065BFC6 /* Connectfy_Bem_EstarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectfy_Bem_EstarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36D557462ED913FF0065BFC6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		36D557482ED914820065BFC6 /* CirclesMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesMenuView.swift; sourceTree = "<group>"; };
+		36D5574A2ED914AB0065BFC6 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
+		36D5574C2ED914E10065BFC6 /* PersonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,15 @@
 		36D557192ED913C90065BFC6 /* Connectfy Bem Estar */ = {
 			isa = PBXGroup;
 			children = (
-				36D5571A2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift */,
+				36D5571A2ED913C90065BFC6 /* ConnectfyBemEstarApp.swift */,
 				36D5571C2ED913C90065BFC6 /* ContentView.swift */,
 				36D5571E2ED913C90065BFC6 /* Item.swift */,
 				36D557202ED913CC0065BFC6 /* Assets.xcassets */,
 				36D557222ED913CC0065BFC6 /* Preview Content */,
+				36D557462ED913FF0065BFC6 /* Models.swift */,
+				36D557482ED914820065BFC6 /* CirclesMenuView.swift */,
+				36D5574A2ED914AB0065BFC6 /* PeopleListView.swift */,
+				36D5574C2ED914E10065BFC6 /* PersonFormView.swift */,
 			);
 			path = "Connectfy Bem Estar";
 			sourceTree = "<group>";
@@ -260,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D5574D2ED914E10065BFC6 /* PersonFormView.swift in Sources */,
 				36D5571D2ED913C90065BFC6 /* ContentView.swift in Sources */,
+				36D5574B2ED914AB0065BFC6 /* PeopleListView.swift in Sources */,
+				36D557492ED914820065BFC6 /* CirclesMenuView.swift in Sources */,
 				36D5571F2ED913C90065BFC6 /* Item.swift in Sources */,
-				36D5571B2ED913C90065BFC6 /* Connectfy_Bem_EstarApp.swift in Sources */,
+				36D5571B2ED913C90065BFC6 /* ConnectfyBemEstarApp.swift in Sources */,
+				36D557472ED913FF0065BFC6 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

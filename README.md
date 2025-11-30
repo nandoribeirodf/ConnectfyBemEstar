@@ -42,6 +42,7 @@ A ideia é simples: lembrar de quem faz bem pra você e manter esses vínculos a
 
 ## 📂 Estrutura do projeto
 
+```text
 ConnectfyBemEstar/
 ├─ Connectfy_Bem_EstarApp.swift   # Ponto de entrada do app
 ├─ ContentView.swift              # View padrão do template
